@@ -4,6 +4,12 @@ Train a state-of-the-art spectral normalization GAN with AdaBelief https://githu
 ### Acknowledgement
 This repo is forked from ```PyTorch-StudioGAN``` github repository, with the only difference in optimizer.
 
+### Dependencies
+```
+pip install adabelief-pytorch
+```
+For other dependencies, see https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/blob/master/environment.yml
+
 ### How to run
 ```
 python main.py -t -e -c configs/CIFAR10/SNGAN-adabelief.json
