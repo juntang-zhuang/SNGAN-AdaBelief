@@ -1,5 +1,5 @@
 ## SNGAN-AdaBelief
-Train a state-of-the-art spectral normalization GAN with AdaBelief.
+Train a state-of-the-art spectral normalization GAN with AdaBelief https://github.com/juntang-zhuang/Adabelief-Optimizer
 
 ### Acknowledgement
 This repo is forked from ```PyTorch-StudioGAN``` github repository, with the only difference in optimizer.
