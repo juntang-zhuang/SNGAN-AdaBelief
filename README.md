@@ -21,6 +21,6 @@ Results for Adam is directly taken from the training log of official implementat
 
 |     | Adam  | AdaBelief (eps = 1e-12, rectify=False) | AdaBelief (eps = 1e-16, rectify=True)|
 |:---:|-------|-----------| ------------|
-| FID | 13.25 | 12.87     | 12.35       |
+| FID | 13.25 | 12.87     | 12.36       |
 
 ![](logs/fid.png)
