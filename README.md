@@ -6,7 +6,7 @@ This repo is forked from ```PyTorch-StudioGAN``` github repository, with the onl
 
 ### Dependencies
 ```
-pip install adabelief-pytorch
+pip install adabelief-pytorch==0.0.5
 ```
 For other dependencies, see https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/blob/master/environment.yml
 
