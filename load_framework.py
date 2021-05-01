@@ -132,8 +132,8 @@ def load_frameowrk(seed, disable_debugging_API, num_workers, config_path, checkp
         G_optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, Gen.parameters()), g_lr, [beta1, beta2], eps=1e-6)
         D_optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, Dis.parameters()), d_lr, [beta1, beta2], eps=1e-6)
     elif optimizer == "AdaBelief":
-        G_optimizer = AdaBelief(filter(lambda p: p.requires_grad, Gen.parameters()), g_lr, [beta1, beta2], eps=1e-12)
-        D_optimizer = AdaBelief(filter(lambda p: p.requires_grad, Dis.parameters()), d_lr, [beta1, beta2], eps=1e-12)
+        G_optimizer = AdaBelief(filter(lambda p: p.requires_grad, Gen.parameters()), g_lr, [beta1, beta2], eps=1e-12)#, rectify=False)
+        D_optimizer = AdaBelief(filter(lambda p: p.requires_grad, Dis.parameters()), d_lr, [beta1, beta2], eps=1e-12)#, rectify=False)
     else:
         raise NotImplementedError
 
