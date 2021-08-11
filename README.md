@@ -17,7 +17,7 @@ python main.py -t -e -c configs/CIFAR10/SNGAN-adabelief.json
 You can modify parameters ```epsilon``` and ```rectify``` in ```load_framwork.py``` https://github.com/juntang-zhuang/SNGAN-AdaBelief/blob/master/load_framework.py#L135
 
 ### Results
-Results for Adam is directly taken from the training log of official implementation https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/blob/master/logs/SNGAN-train-2020_09_18_14_37_00.log
+Results for Adam is directly taken from the training log of official implementation https://github.com/POSTECH-CVLab/PyTorch-StudioGAN/blob/c98d0e94d98a97e14165bd42bd1416027cf78f4d/logs/CIFAR10/SNGAN-train-2020_09_18_14_37_00.log
 
 |     | Adam  | AdaBelief (eps = 1e-12, rectify=False) |
 |:---:|-------|-----------|
